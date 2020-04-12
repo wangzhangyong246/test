@@ -11,6 +11,8 @@ struct HEAD_TYPE_STRU stPacked = {0x55,0x06,0x0801,0x09,0x01,2,3,4,0x05,6,7};
 int main(char argc,char **argv)
 {
 	char *pData =(void *) &stPacked;
+
+	printf("test\n");
 	printf("%d\n",pData[5]);
 	return 0;
 }
